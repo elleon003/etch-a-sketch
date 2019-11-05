@@ -1,0 +1,13 @@
+header {
+    padding: 1.25em .75em;
+}
+
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 960px;
+}
+
+.purple {
+    background-color: purple;
+}
