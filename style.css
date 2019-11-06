@@ -1,11 +1,43 @@
-header {
-    padding: 1.25em .75em;
+.header {
+    margin: 25px auto;
+    width: 425px;
+}
+
+button {
+    margin-right: 15px;
+}
+
+.clear {
+    margin-right: .75em;
+    background-color: rgba(150, 8, 8, 0.747);
+    padding:5px 10px;
+    color:white;
+}
+
+.buildGrid {
+    background-color: rgba(88, 150, 8, 0.747);
+    padding:5px 10px;
+    color:white;
+}
+
+.eraser {
+    background-color: rgba(8, 69, 150, 0.747);
+    padding: 5px 10px;
+    color: white;
+}
+
+.color {
+    background-color:purple;
+    padding: 5px 10px;
+    color: white;
 }
 
 .container {
     display: grid;
     margin: 0 auto;
-    width: 960px;
+    width: 500px;
+    height: 500px;
+    border: solid 3px red;
 }
 
 .purple {
